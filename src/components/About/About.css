@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+.about5
+{  
+    width: 97vw;
+    background-color: #fff;
+    /* margin-top: -14rem; */
+}
+.main-content
+{    
+    font-family: 'Nunito', sans-serif;
+    /* font-style: italic; */
+    width: 98.8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin-top: -8rem; */
+}
+
+.head1
+{   
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 4rem;
+}
+
+.head2
+{
+    margin-top: -3rem;
+    font-weight: 100;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+.second-part
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.medical-icons
+{   
+    max-width: 98.8vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 3rem 3rem;
+    /* align-items: center; */
+}
+
+.health-problem
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 5px solid crimson; */
+    max-width: 25rem;
+
+}
+
+
+/* .left{
+   margin-right: 4rem;
+}
+
+.right
+{
+    margin-left: 4rem;
+} */
+
+.health-problem i
+{
+    /* background-color: rgb(rgba(0, 81, 255, 0.584), rgb(6, 0, 128), rgba(76, 0, 255, 0.274)); */
+  /* border-radius: 50%; */
+  border-radius: 60% 40% 40% 20%;
+  
+  background-color: blueviolet;
+  border: 1px solid grey;
+  padding: 1.6rem;
+  font-size: 3rem;
+
+}
+.problem{
+     font-weight: 1rem;
+     font-size: 1.5rem;
+     margin: 1rem 1rem;;
+}
+.text
+{
+    color: brown;
+    /* max-width: 8rem; */
+    max-width: fit-content;
+
+}
+
+.btn
+{
+    padding :.5rem .5rem;
+    background-color: blueviolet;
+    border: 2px solid black;
+    border-radius: .5rem;
+    color: #fff;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+
+
+    .left{
+        margin-right: 1rem;
+     }
+     
+     .right
+     {
+         margin-left: 1rem;
+     }
+     
+}

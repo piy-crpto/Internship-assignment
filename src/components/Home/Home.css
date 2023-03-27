@@ -1,0 +1,170 @@
+
+
+
+ #home5{
+  box-sizing: border-box;
+    padding: 100px 0;
+    margin: 0;
+     height: 100vh;
+    width: 98.8vw;
+    background: url(/public/Images/img1.jpg);
+    /* margin-bottom: -200px; */
+}
+.max-width{
+  max-width: 100vw;
+    padding: 0 80px;
+   
+    margin: 0;
+}
+
+
+@media screen and (max-width: 500px) {
+  .sliderStyle
+  {
+    display: none;
+  }
+
+  #home5{
+    box-sizing: border-box;
+      /* padding: 100px 0; */
+      margin: 0;
+       height: 100vh;
+      width: 98.8vw;
+      background: url(/public/Images/special.jpg);
+      /* margin-bottom: -200px; */
+      background-repeat: no-repeat;
+      background-size: contain;
+  }
+}
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+.home{
+    display: flex;
+    background: url(/public/Images/img1.jpg) no-repeat center;
+    /* background-size: 100vw; */
+    height: 100vh;
+    /* margin-right: 100px; */
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+
+.home .max-width{
+    width: 100%;
+    display: flex;
+    float: right;
+    /* border:3px solid crimson; */
+   margin-top: auto; 
+   margin-bottom: auto; 
+   margin-left: 50%;
+  }
+  .home-content
+  {
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+  }
+  .home-content .text-1
+  {
+    text-transform: uppercase;
+   color: bisque;
+   margin-bottom: 2.8rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+  .home-content .text-2
+  {
+    margin-bottom: 2rem;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 2.8rem;
+    /* margin: 10% auto; */
+  }
+  .home-content .text-3 
+  {
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   margin: auto;
+   /* position: fixed; */
+  }
+  .home-content .text-3 a
+  {
+    
+   font-size: 1.3rem;
+   color: black;
+   font-weight: 600;
+   background-color: gray;
+    /* border:3px solid  crimson; */
+   border-radius: 1.2rem;
+   padding: .6rem;
+   text-decoration: none;
+
+
+  }
+
+
+
+  @media only screen and (max-width: 500px) {
+    .max-width
+    {
+      border-radius: 5px solid blue;
+      /* background-color: aqua; */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-size: 100px 200px;
+    }
+    .home
+    {
+      object-position: center;
+      background-position: center;
+    /* margin-right: -100px;
+    background-color: black; */
+    }
+    .home-content
+    {
+      display: none;
+
+    }
+  }
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+ 
+  
+  
+  
+

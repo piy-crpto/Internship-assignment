@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+.services5
+{   
+    box-sizing: border-box;
+    background-color: #fff;
+    /* margin: 0; */
+    margin-top: 100px;
+    width: 98.8vw;
+    
+   /* border: 5px solid red; */
+   
+}
+.main-content
+{    
+    font-family: 'Nunito', sans-serif;
+    /* font-style: italic; */
+    width: 98.8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: -10rem;
+    
+}
+
+.head1
+{   
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 4rem;
+}
+
+.head2
+{
+    /* margin-top: -3rem; */
+    font-weight: 100;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+ .second-content
+{   
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    width: 98.8vw;
+    /* border: 6px solid red; */
+
+} 
+
+.content 
+{  
+    display: flex;
+    flex-direction: row;
+   width: 98.8vw;
+    align-items: center;
+    justify-content: space-around;
+   /* border: 2px solid red; */
+    /* border: 5px solid red; */
+    flex-wrap: wrap;
+    margin-bottom: 6rem;
+  
+}
+/* .image-section,
+.write-section
+{
+   max-width: 300px;
+} */
+
+.head-part
+{
+    font-weight: bolder;
+     font-size: 2rem;
+     margin: .2rem 0;
+}
+.about-part
+{  
+    /* text-align: center; */
+    max-width: 20rem;
+    color: gray;
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin: 1rem 0;
+}
+.imgtag
+{
+    height: 280px;
+    width: 400px;
+    border-radius: 2rem;
+}
+
+.btn-part
+{   
+    max-width: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .1rem .1rem;
+    font-size: 1.4rem;
+    padding :auto;
+    background-color: blueviolet;
+    /* border: 2px solid black; */
+    border-radius: .5rem;
+    color: #fff;
+  
+}
+
+
+.image-section
+{  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:cornflowerblue;
+    height: 30rem;
+    width: 35rem;
+   
+
+
+}
+
+.imgtag1
+{
+    border-top-right-radius: 100%;
+    border-top-left-radius: 70%;
+    border-bottom-left-radius: 99%;
+    border-bottom-right-radius: 100%;
+}
+
+
+.imgtag2
+{
+    border-top-right-radius: 70%;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 99%;
+}
+
+
+.imgtag3
+{
+    border-top-right-radius: 100%;
+    border-top-left-radius: 70%;
+    border-bottom-left-radius: 99%;
+    border-bottom-right-radius: 100%;
+}
+
+
+
+

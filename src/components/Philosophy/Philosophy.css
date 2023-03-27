@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+.philosophy5
+{   
+    box-sizing: border-box;
+    background-color: #fff;
+    margin: 0;
+    /* margin-top: 600px; */
+    width: 98.8vw;
+   
+    /* background-image: linear-gradient(to right top, #00ffff, #38f3ff, #59e7ff, #74dbfb, #89cff0); */
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    border-top-right-radius: 10% 20%;
+    border-bottom-right-radius: 10% 20%;
+    border-bottom-left-radius: 10% 20%;
+
+   
+}
+.main-content
+{    
+    font-family: 'Nunito', sans-serif;
+    /* font-style: italic; */
+    /* background-color: aqua; */
+    width: 98.8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 8rem;
+   
+}
+
+.heading
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+.head1
+{   
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.7rem;
+    color: black;
+    margin-bottom: 3rem;
+    
+}
+
+.head2
+{
+    /* margin-top: -3rem; */
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+   color: green
+}
+
+.second-part1,.second-part2
+{   
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   margin-bottom: 5rem;
+    width: 70vw;
+    /* border: 6px solid red; */
+
+} 
+.second-part2
+{
+      margin-bottom: 30rem;
+}
+
+.i-part
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.i-part img
+{  
+
+    max-width: 100px;
+    height: 200px;
+}
+.parent
+{   
+    width: 160px;
+    height: 400px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    padding: .7rem 1.8rem;
+    border-top-right-radius: 40% 15%;
+    border-bottom-left-radius: 40% 15%;
+    /* margin-bottom: 4rem; */
+
+ 
+}
+.a-part
+{
+    color: cadetblue;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.h-part
+{
+    color: black;
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+

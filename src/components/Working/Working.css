@@ -1,0 +1,123 @@
+.program-workings
+{
+    box-sizing: border-box;
+    background-color: #fff;
+    margin-top: 5rem;
+    /* margin-top: 600px; */
+    width: 98.8vw;
+   
+    /* background-image: linear-gradient(to right top, #00ffff, #38f3ff, #59e7ff, #74dbfb, #89cff0); */
+    
+}
+
+.first-heading
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    font-weight: bold;
+    font-size: 2.7rem;
+    color: black;
+    /* margin-bottom: 3rem; */
+}
+
+.line
+{
+    width: 100px;
+    height: 3px;
+    background-color: aqua;
+    margin: 1rem auto;
+}
+
+
+
+.ipart
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.ipart img
+{  
+
+    width: 120px;
+    height: 200px;
+}
+.main-box
+{   
+    width: 160px;
+    /* height: 400px; */
+    height: 450px;
+    background-color: darkblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: .7rem 1.8rem;
+    border-radius: 8px;
+    /* gap: 20px; */
+    /* border-top-right-radius: 40% 15%;
+    border-bottom-left-radius: 40% 15%; */
+    /* margin-bottom: 4rem; */
+
+ 
+}
+
+.working
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.apart
+{
+    color: #fff;
+    font-size: .8rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.hpart
+{
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    margin: 1.5rem 0;
+}
+
+.steps
+{
+    font-size: 2rem;
+    font-weight: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+    .working
+    {
+       flex-direction: column;
+    }
+}

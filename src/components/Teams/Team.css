@@ -1,0 +1,65 @@
+.team
+{
+    box-sizing: border-box;
+    background-color: #fff;
+    /* margin: 0; */
+    margin-top: 50px;
+    width: 98.8vw;
+}
+
+.member-content
+{   
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 98.8vw;
+    justify-content: center;
+}
+.upper
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 98.8vw;
+    justify-content: center;
+    height: 50vh;
+    background-color:cornflowerblue;
+    /* padding-top: -10rem; */
+   
+    /* margin-top: -20rem; */
+}
+.h1
+{
+    color: brown;
+    font-size: 4rem;
+    font-weight: 500;
+    margin-top: -10rem;
+    /* margin: 1.5rem 0; */
+}
+
+.h3
+{
+    /* margin-top: -9rem;  */
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 1rem 0;
+}
+
+.head-team
+{
+    font-size: 3rem;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+
+/* @media only screen and (max-width: 500px) {
+    .working
+    {
+       flex-direction: column;
+    }
+} */

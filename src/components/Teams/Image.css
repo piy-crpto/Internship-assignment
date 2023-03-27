@@ -1,0 +1,45 @@
+.sliderStyle
+{
+  position: relative;
+}
+
+ 
+ 
+.leftViewStyle{
+   position: absolute;
+   top: 40%;
+   
+      font-size:60px;
+    cursor:pointer;
+    color: brown;
+    
+   
+    /* border: 5px solid red; */
+
+}
+
+
+
+    .rightViewStyle{
+      /* position: absolute; */
+      font-size:60px;
+      cursor:pointer;
+      color: brown;
+      right: 0;
+      top: 50%;
+      margin-left: 96vw;
+      /* right: 0; */
+    }
+
+
+
+    @media screen and (max-width: 500px) {
+      .sliderStyle
+      {
+        display: none;
+      }
+    }
+
+    
+
+   
