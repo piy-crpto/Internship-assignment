@@ -80,6 +80,8 @@ position: relative;
     {
         height: 80%;
         width: 80%;
+        border-top-left-radius: 0;
+        border-bottom-right-radius:0;
     }
 }
 

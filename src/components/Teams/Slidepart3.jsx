@@ -26,15 +26,15 @@ const Slidepart3 = () => {
  };
   return (
     <section className='slide-part'>
-                         <div className="content">
-                                <div className="image-section imgtag32">
-                                      <img src="Images/img52.jpeg" alt="cheeseimg" srcset="" className='imgtag '/>
+                         <div className="content-team">
+                                <div className="image-section-team imgtag32">
+                                      <img src="Images/img52.jpeg" alt="cheeseimg" srcset=""/>
                                       
                                 </div>
-                               <div className="write-section" style={slidesStyle2}>
+                               <div className="write-section-team" style={slidesStyle2}>
 
                                         <div className="head-part">MAHENDRA SINGH DHONI STORIES</div>
-                                          <div className="about-part special-font" style={slidesStyle}>
+                                          <div className=" about-part-team" style={slidesStyle}>
                                                   I was Suffering from digestion issues from past 5 years faced, acidity,
                                                   bloating along with digestion issues, I had hair fall and acne problem
                                                   which gave me stress and anxiety and frequently used to suffer from

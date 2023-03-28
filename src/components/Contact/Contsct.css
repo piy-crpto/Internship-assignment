@@ -66,7 +66,13 @@ section:nth-child(even){
     color:var(--green);
 }
 
-
+.box
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 @media screen and (max-width:780px){
        
     .footer .box-container-main{

@@ -6,7 +6,7 @@ export const Service = () => {
  
  <section id='services5' className='services5'>
 
- <div className="main-content">
+ <div className="main-content-service">
       
            <div className="heading">
                <h1 className='head1'>How we do it ?</h1>
@@ -14,33 +14,33 @@ export const Service = () => {
             </div>
 
 
-            <div className="second-content">
+            <div className="second-content-service">
                   <div className="content">
-                               <div className="image-section imgtag1"><img src="Images/img11.webp" alt="cheeseimg" srcset="" className='imgtag '/></div>
-                               <div className="write-section">
+                               <div className="image-section-service imgtag1"><img src="Images/img11.webp" alt="cheeseimg" srcset="" className='imgtag '/></div>
+                               <div className="write-section-service">
                                           <div className="head-part">DIET</div>
-                                          <div className="about-part">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, ad.</div>
+                                          <div className="about-part-service">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, ad.</div>
                                           <div className="btn-part">Click Here</div>
                                </div>
                   </div>
                   <div className="content">
-                                 <div className="write-section"> 
-                                         <div className="head-part">Healthy and Colourful Recipes</div>
-                                          <div className="about-part">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, ad.</div>
+                                 <div className="write-section-service"> 
+                                         <div className="head-part">Healthy and Colourful</div>
+                                          <div className="about-part-service">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, ad.</div>
                                           <div className="btn-part">Click Here</div>
                                    </div>
-                                 <div className="image-section imgtag2">
+                                 <div className="image-section-service imgtag2">
                                        <img src="Images/img4.jpeg" alt="cheeseimg" srcset="" className='imgtag '/>
                                  </div>
                   </div>
                   <div className="content">
-                                <div className="image-section imgtag3">
+                                <div className="image-section-service imgtag3 imgspecial">
                                       <img src="Images/img7.jpg" alt="cheeseimg" srcset="" className='imgtag '/>
                                 </div>
-                               <div className="write-section">
+                               <div className="write-section-service">
 
                                         <div className="head-part">Lifecycle</div>
-                                          <div className="about-part">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, ad.</div>
+                                          <div className="about-part-service">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, ad.</div>
                                           <div className="btn-part">Click Here</div>
                                </div>
                   </div>

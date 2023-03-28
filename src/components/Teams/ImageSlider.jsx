@@ -1,5 +1,5 @@
 import React from "react";
-import "./Image.css";
+ import "./Image.css";
 import { useState } from "react";
 import Slidepart1 from "./Slidepart1";
 import Slidepart2 from "./Slidepart2";
