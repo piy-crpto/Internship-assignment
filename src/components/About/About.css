@@ -76,12 +76,12 @@
 
 .health-problem i
 {
-    /* background-color: rgb(rgba(0, 81, 255, 0.584), rgb(6, 0, 128), rgba(76, 0, 255, 0.274)); */
-  /* border-radius: 50%; */
-  border-radius: 60% 40% 40% 20%;
-  
+     border-radius: 60% 40% 40% 20%;
+  -webkit-box-shadow: 17px 18px 35px -12px rgba(212,127,212,1);
+-moz-box-shadow: 17px 18px 35px -12px rgba(212,127,212,1);
+box-shadow: 17px 18px 35px -12px rgba(212,127,212,1);
   background-color: rgba(74,196,243,1);
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
   padding: 1.6rem;
   font-size: 3rem;
 
