@@ -93,10 +93,10 @@
     font-size: 1.4rem;
     margin: 1rem 0;
 }
-.imgtag
+.content .imgtag
 {
-    height: 310px;
-     width: 200px;
+    height: 250px;
+     width: 150px;
 }
 
  .btn-part
